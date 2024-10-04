@@ -1,5 +1,5 @@
 body {
-    background-image: url("./n2GV3MK.png");
+    background-image: url("./img/n2GV3MK.png");
     background-repeat: repeat;
     background-color: #131a1f;
     background-position: cover;
@@ -312,7 +312,16 @@ body {
   .green.shadow {
     text-shadow: 3px 3px #153F15;
   }
+
+  .dark_aqua {
+    color: #00AAAA;
+  }
   
+  .dark_aqua.shadow {
+    text-shadow: 3px 3px #002A2A;
+  }
+
+
   .aqua {
     color: #55FFFF;
   }
@@ -369,3 +378,15 @@ body {
     font-style: italic;
   }
 
+.post{
+  background-color: #202020;
+}
+
+.post img {
+  width: 500px;
+  border-radius: 4px;
+}
+
+.post small {
+  text-size-adjust: 10px;
+}
