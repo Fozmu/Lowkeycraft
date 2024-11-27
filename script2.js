@@ -10,7 +10,7 @@ form.addEventListener('submit', async (e) => {
 
     // Pobierz dane z formularza
     const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
+    const userid = document.getElementById('userid').value;
     const issue = document.getElementById('issue').value;
     const subject = document.getElementById('subject').value;
     const description = document.getElementById('description').value;
@@ -21,7 +21,7 @@ form.addEventListener('submit', async (e) => {
             {
                 title: "Ticket Request from " + name,
                 fields: [
-                    { name: "E-mail", value: email },
+                    { name: "User ID", value: userid },
                     { name: "Needs help with", value: issue },
                     { name: "Subject", value: subject },
                     { name: "Description", value: description }
@@ -29,6 +29,7 @@ form.addEventListener('submit', async (e) => {
                 color: 57228// Kolor w HEX (0x58B9FF -> DEC)
             }
         ]
+    
     };
 
     // Wyślij dane do webhooka
