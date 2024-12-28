@@ -1,6 +1,6 @@
 body {
-    background-image: url("./img/n2GV3MK.png");
-    background-repeat: repeat;
+    background-image: url("https://cdn.discordapp.com/attachments/1225494321952985199/1322258074999717978/Nowy_obrazek7.jpg?ex=6770384b&is=676ee6cb&hm=d5410e048da4bb755475444d819fab377c659b70bd99a8f2a4f9236fa9d73469&");
+    background-repeat: no-repeat;
     background-color: #131a1f;
     background-position: cover;
     background-size: cover;
@@ -389,4 +389,28 @@ body {
 
 .post small {
   text-size-adjust: 10px;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-item {
+  border: Solid 2px #fffefe;
+}
+
+.navbar-nav{
+  gap: 10px;
+}
+
+
+.kart {
+  border-radius: 20px;
+  background-color: #151515;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
