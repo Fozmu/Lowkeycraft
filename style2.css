@@ -1,54 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-image: url("./cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L3Y0OTkta3VsLTE3LWFic3RyYWN0YmFja2dyb3VuZC1nLWpvYjE2MzEuanBn.webp") 
+    background-image: url("./img/241226_200743672.jpg");
+    background-repeat: repeat;
+    background-color: #101016;
+        background-position: center;
+        background-size: cover;
+
+        display: flex;
+        justify-content: first baseline;
+        align-items: center;
+        flex-direction: column;
     
 
+
 }
+
+
 
 .container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #2a2a2a;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
-    box-sizing: border-box;
+    max-width: 520px;
+    
 }
-
 h1 {
     font-size: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 label {
     font-weight: bold;
     display: block;
-    margin: 10px 0 5px;
+    margin: 5px 0 5px;
+    color: #ffffff;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: #393939;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
 button {
     background-color: #007bff;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     width: 100%;
     font-size: 1em;
@@ -61,5 +69,136 @@ button:hover {
 #statusMessage {
     margin-top: 15px;
     font-size: 0.9em;
-    color: #333;
+    color: #e6e4e4;
 }
+
+.transp {
+    color: #ffffff00;
+    background-color: #ffffff00;
+
+}
+
+
+.embed{
+    background-color: rgb(88, 101, 242);
+    color: ivory;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+
+
+.embed2{
+  background-color: rgb(29, 75, 174);
+  color: ivory;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+
+}
+
+.redembed{
+background-color: rgb(235, 73, 76);
+    color: ivory;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+div  {
+    background-color: rgb(45, 47, 53);
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+* {
+    margin: 0;
+    }
+    
+    .dropdown {
+    display: flex;
+    align-items: self-;
+    }
+    
+    
+    .div1 {
+      height: 300px;
+      background-color: #2f3136;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .div2 {
+    height: 320px;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .div3 {
+    height: 570px;
+    background-color: #2f3136;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .div4 {
+    height: 450px;
+    background-color: #2f3136;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .title {
+    height: 80px;
+    background-color: #5865f2;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .title2 {
+    height: 80px;
+    background-color: #2ae882;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .title3 {
+    height: 80px;
+    background-color: #ff4f4f;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .end {
+    height: 200px;
+    background-color: #24262a;
+      background-position: center;
+      width: 99vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
